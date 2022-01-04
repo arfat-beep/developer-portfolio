@@ -7,8 +7,10 @@ h1 {
   text-transform: capitalize;
 }
 section {
-  display: flex;
   margin-bottom: 150px;
+}
+.flexible-container {
+  display: flex;
 }
 .hero {
   background-image: url("images/top-banner.png");
