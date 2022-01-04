@@ -67,5 +67,16 @@ h3 {
   padding-left: 3%;
   border-radius: 10px;
 }
-/* #full-stack;
-#baby-stack; */
+#full-stack {
+  border-image: linear-gradient(red, orange);
+  border-left: 10px solid;
+  border-image-slice: 1;
+}
+#baby-stack {
+  border-image: linear-gradient(purple, green);
+  border-left: 10px solid;
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+}
