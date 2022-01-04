@@ -6,11 +6,17 @@ h1 {
   font-size: 50px;
   text-transform: capitalize;
 }
+h2 {
+  font-size: 40px;
+}
 section {
   margin-bottom: 150px;
 }
 .flexible-container {
   display: flex;
+}
+.orange-color {
+  color: orange;
 }
 .hero {
   background-image: url("images/top-banner.png");
@@ -23,7 +29,7 @@ section {
 .half-width img {
   width: 80%;
 }
-h2 {
+h3 {
   text-transform: capitalize;
 }
 .link-button {
@@ -49,3 +55,17 @@ h2 {
   text-decoration: none;
   border-radius: 5px;
 }
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-item {
+  width: 40%;
+  margin: 0 5%;
+  box-shadow: 10px 10px 40px 20px gray;
+  padding-left: 3%;
+  border-radius: 10px;
+}
+/* #full-stack;
+#baby-stack; */
